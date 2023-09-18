@@ -1,3 +1,5 @@
+#!/usr/bin/env php
+
 <?php
 
 require 'vendor/autoload.php';
@@ -15,5 +17,5 @@ $cursos = $buscador->buscar('https://alura.com.br/cursos-online-programacao/php'
 
 
 foreach($cursos as $curso){
-    echo exibeMensagem($curso);
+    exibeMensagem($curso);
 } 
